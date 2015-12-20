@@ -1,4 +1,4 @@
-function Rg(defaults) {
+function Arghh(defaults) {
     return function(args) {
         var result = {};
 
@@ -8,16 +8,16 @@ function Rg(defaults) {
             } else {
                 var def = defaults[key];
 
-                if (def === Rg) {
+                if (def === Arghh) {
                     throw new Error('Missing arg: ' + key);
                 } else {
                     result[key] = def;
                 }
             }
         });
-        
+
         return result;
     };
 }
 
-module.exports = Rg;
+module.exports = Arghh;

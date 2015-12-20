@@ -1,13 +1,13 @@
 var Assert = require('assert')
-var Rg     = require('./index');
+var Arghh  = require('./index');
 
-var rg = Rg({
-    one : Rg,
+var rg = Arghh({
+    one : Arghh,
     two : 1
 });
 
 module.exports = {
-    Rg : {
+    Arghh : {
         'set default args' : function() {
             var value = rg({
                 one : 1
