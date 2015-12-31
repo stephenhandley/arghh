@@ -1,6 +1,6 @@
 {
   "name": "arghh",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Object argument signature check",
   "main": "index.js",
   "scripts": {
